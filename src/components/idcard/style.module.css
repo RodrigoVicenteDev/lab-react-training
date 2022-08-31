@@ -1,6 +1,7 @@
 .container{
     border: 2px black solid;
     display: flex;
+    margin: 10px;
 }
 
 .span{
