@@ -1,0 +1,14 @@
+.bandeira{
+    width: 70px;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card{
+    width: 300px;
+    border-radius: 15px;
+    padding: 15px;
+}

@@ -1,0 +1,14 @@
+.img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 81, 112);
+    border-radius: 20px;
+    margin: 10px;
+    color:antiquewhite
+}

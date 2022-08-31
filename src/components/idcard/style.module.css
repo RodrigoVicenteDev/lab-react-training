@@ -1,0 +1,11 @@
+.container{
+    border: 2px black solid;
+    display: flex;
+}
+
+.span{
+    font-weight: bold;
+    
+}
+
+
