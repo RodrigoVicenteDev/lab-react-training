@@ -1,0 +1,24 @@
+.container{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+
+.span{
+    font-weight: bold;
+    
+}
+
+
+.img{
+    width: 150px;
+}
+
+.card{
+    border: 2px black solid;
+    display: flex;
+    
+    margin: 10px;
+}
