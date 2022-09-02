@@ -7,6 +7,10 @@ import CreditCard from './components/creditcard';
 import Rating from './components/Rating';
 import DriverCard from './components/drivercard';
 import Container from './components/container';
+import LikeButton from './components/likebutton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/dice';
+import Carousel from './components/carousel';
 
 function App() {
   return (
@@ -98,7 +102,31 @@ function App() {
     licensePlate: "BE33ER"
   }}
 />
+
+<LikeButton/>
+<br>
+</br>
+<ClickablePicture
+  img='../assets/images/maxence.png'
+  imgClicked='../assets/images/maxence-glasses.png'
+/>
+<br>
+</br>
+<Dice/>
+<br>
+</br>
+<Carousel
+  images={[
+    'https://randomuser.me/api/portraits/women/1.jpg',
+    'https://randomuser.me/api/portraits/men/1.jpg',
+    'https://randomuser.me/api/portraits/women/2.jpg',
+    'https://randomuser.me/api/portraits/men/2.jpg'
+  ]}
+/>
+
     </div>
+
+    
   );
 }
 
